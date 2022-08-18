@@ -1,180 +1,174 @@
 defaultTags:
-  - ddi
+  - math
   - cs
 
 education:
-  - location: University of Minnesota, Twin Cities
-    date: "Expected Graduation: May 2024"
-    url: Double B.S. in Computer Science & Mathematics
-  - name: Brookings High School
-    date: August 2017 - May 2021
-    info:
-      - "GPA: 4.043 - Honors Scholar"
-      - "SAT: 1570/1600 (800 math, 770 reading-writing)"
-      - "Activities: National Honor Society President, Science Olympiad Captain, Science Bowl Captain, State QuizBowl Captain, Varsity Debater + National Qualifier"
-    tags: [ high school ]
-
+- location: University of Minnesota, Honors
+  url: B.S. in Compsci and Math, 3.94 GPA
+  date: 'Sep 2021 - May 2024 [Expected]'
 
 work:
-  - location: Fiveable
-    title: Software Engineer
-    url: fiveable.me
-    href: https://hi.fiveable.me
-    date: Sep 2021 - Aug 2022
-    tags: [ cs ]
-    info:
-      - Architected and implemented low-level WebRTC voice and video calling functionality. Started as a proof-of-concept and then scaled to general availability on Google Kubernetes Engine.
-      - Reduced application load times by 20x on high-traffic pages by optimizing database queries, network requests, and re-renders.
-      - Refactored backend to a REST-ful API and automated tests with Jest and Puppeteer, improving performance and stability.
-      - Deployed and managed servers on Google Compute Engine for internal tools used company-wide.
-      - Designed and built user-facing features using Typescript, Next.js, React, Redux, Material UI, and MongoDB.
-  - location: Art of Problem Solving
-    title: Teaching Assistant (contractor)
-    url: aops.com
-    href: https://artofproblemsolving.com
-    date: Aug 2021 - Present
-    tags: [ math ]
-    info:
-      - Analyzed Python and math homework with set guidelines, and wrote feedback to guide students to the solution
-  - location: Bobcat Notify
-    title: Founder
-    url: notify.samyok.us
-    href: https://notify.samyok.us
-    date: Nov 2019 - May 2021
-    tags: [ cs ]
-    info:
-      - Published Android and iOS apps for Brookings High School students, staff, and parents for fast and reliable emergency alerts.
-      - Gained 2000+ downloads, more than 2.5x the number of students. The school district offered to purchase the app for every school.
-      - Collaborated with school administration and IT to deliver timely and relevant push notifications and in-app updates.
-      - Maintained an average rating of 4.9 stars across both app stores with over 50 reviews.
-  - location: Scioly.org
-    title: Developer
-    url: scioly.org
-    href: https://scioly.org
-    date: Sep 2019 - Aug 2022
-    tags: [ cs ]
-    info:
-      # cringe \/
-      - Ensured site uptime by maintaining servers for critical projects.
-      - Developed custom PHP image gallery and file storage server to be used by more than 68,000 registered users.
-#      - Implemented an image optimization service to reduce image file sizes by up to 80%.
-  - location: Freelance Web Developer
-    date: May 2018 - Nov 2019
-    tags: [ cs ]
-    info:
-      - Built and deployed a global network of servers to publish messages in under 200ms to over 7,500 concurrent users globally.
-      - Developed complex web scraping bots and websites to successfully gather information requested by clients quickly and accurately.
-  - location: Brookings Math Circle
-    title: Co-Founder/Instructor
-    url: brookingsmath.org
-    href: https://brookingsmath.org
-    date: 2016 - 2021
-    tags: [ math ]
-    info:
-      - Volunteer taught three‐hour classes every week during the summer, with lessons ranging from single variable algebra to AIME‐level geometry. Achieved goal of 20+ attendees per class for the last three years.
-      - Created curriculum by writing handouts, homework, and mock contests, resulting in over 100 pages of instructional materials over 5 years.
-      - Ensured students’ success with a smooth transition into competitive math, contributing to the local MATHCOUNTS team growing by 60% to more than 30 members.
+- location: Optiver
+  place: Chicago, IL
+  title: Software Engineering Intern
+  url: 'optiver.com'
+  href: https://optiver.com/
+  date: 'Jun 2022 - Aug 2022'
+  info:
+  - Aggregated stats from 1000 servers with 15 second cadence, including process data
+    for production event retrospectives.
+  - Synchronized 750 network devices geographyically distributed network device clocks
+    to within 3 nanoseconds.
+  - Optimized energy consumption in dense computer cluster to be within 0.3% of threshold.
+  - Validated state of production hosts with Ansible jobs to ensure repeatable deployment
+    of 8000 processes.
+  - Facilitated network management with internal Django tooling.
+  - Won a probabilistic betting competition against other interns.
+
+- location: CHOICE Lab (CV, RL, Robotics)
+  place: Minneapolis, MN
+  title: Undergraduate Researcher
+  url: choice.umn.edu
+  href: https://choice.umn.edu/
+  date: 'Oct 2022 - Present'
+  info:
+  - Gained practical experience with SOTA reinforcment learning algorithms.
+  - Presented at UMN undergraduate symposium about keypoint representation of state
+    space.
+
+- location: FIRST Robotics Competition — Team 4536
+  place: Saint Paul, MN
+  title: Team Captain
+  href: http://www.minutebots.org/
+  date: 'Sep 2017 - May 2021'
+  info:
+  - Founded and mentored an FTC team to onboard rookies.
+  - Led outreach events bringing STEM and robotics to underserved communities (Boys
+    & Girls Club).
+  - Wrote dynamic path generation and following for autonomous routines in Java.
+  - Designed a hardware abstraction framework to remove build-testing bottleneck.
+
+- location: Slingshot (CMU Startup)
+  place: CMU
+  description: High School Talent Search
+  title: 2021 Fellow
+  href: https://slingshotahead.com/
+  date: 'Feb 2021 - Sep 2021'
+  info:
+  - Moderated a Discord community of nearly 2500 people on a team of 8 across technical
+    and social channels.
+  - Designed, managed, and judged a weekly OSS challenge, topics include machine learning
+    and augmented reality.
+
+- location: Slide (Stanford Startup)
+  place: Stanford
+  description: Venue Management and Analytics
+  title: Backend Intern
+  url: 'slide.us'
+  href: 'https://www.slide.us/'
+  date: 'Jun 2021 - Aug 2021'
+  info:
+  - Architected API routes for pivot to consumer social features, used by hundreds
+    of users.
+  - Automated myself out of a rote venue data scraping task and enhanced data accuracy
+    with Node.
+  - Assessed business growth and improved pitches via a MongoDB Charts KPI dashboard.
+  - Outlined core processes of software under coordination of IP counsel for a patent
+    application.
+
+basics:
+  name: Sasha Hydrie
+  label: Software Engineer
+  image: ''
+  email: sashahydrie@gmail.com
+  phone: "(612) 232-1484"
+  url: https://github.com/iCalculated
+  location:
+    address: 1046 Burgess St
+    postalCode: MN 55103
+    city: Saint Paul
+    countryCode: US
+    region: California
+  profiles:
+  - network: GitHub
+    username: iCalculated
+    url: https://github.com/iCalculated
+  - network: Lichess
+    username: iCalculate
+    url: https://lichess.org/@/iCalculate
 
 projects:
-  - location: Anony.news
-    title: 3rd @ Hack for Humanity 2022
-    url: github
-    href: https://github.com/MiniHacks/anonygoose
-    date: Python (OpenCV), FFmpeg, Next.js, MongoDB, Docker
-    tags: [ cs ]
-    info:
-      - Used OpenCV and OpenFace to detect, identify, and selectively blur all unrecognized faces in real time.
-      - Automatically deployed to DigitalOcean droplets using Docker Compose and GitHub Actions.
-      - Implemented the frontend to connect to a RTMP proxy server with integrated streaming to Youtube (or any other RTMP endpoint).
-  - location: Lecture.ninja
-    title: 2nd (Remote Learning) @ TAMUHack 2022
-    url: github
-    href: https://github.com/MiniHacks/LectureNinja
-    date: Python (OpenCV, FastAPI), Next.js, Docker
-    tags: [ cs ]
-    info:
-      - Parsed user-uploaded lecture videos to create an interactive transcript interlaced with parsed slides from the video.
-      - Leveraged OpenCV to extract lecture slides and Google Cloud Speech APIs for transcription via a FastAPI microservice.
-      - Built frontend to upload video files to Google Cloud Storage and then fetch relevant data from a MongoDB instance.
-  - location: "Dakota Debate Institute"
-    title: Summer 2021-2022
-    url: "dakotadebate.org"
-    href: "https://dakotadebate.org"
-    date: Next.js, Chakra, Express, MongoDB
-    tags: [ ddi ]
-    info:
-      - Founded and directed a 501(c)3 nonprofit to run a week-long, overnight debate summer camp with over 45 students and 10 staff.
-      - Developed the website and classroom management system for our free live-streamed classes.
-      - Managed a $10k/month Google AdWords campaign which was responsible for roughly 50% of web traffic.
+- location: Watercooler Report
+  title: 2nd @ Hack Violet 2022
+  info:
+  - 'Tested variety of ML techniques: logistic regression, gradient-boosted trees,
+    biLSTMs, embeddings, attention.'
+  - Integrated with Slack and G Suite to detect benevolent (normative) and hostile
+    sexism.
+  - Deployed a low-latency flask microservice to Google Compute Engine.
+  date: Python (Keras, Flask), GCP, Docker, JavaScript
+  url: github
+  href: https://github.com/MiniHacks/Hack-Violet
+  tags: [cs]
 
+- location: Anony.news
+  title: 3rd @ Hack for Humanity 2022
+  info:
+  - Blurred faces of bystanders from real-time news streams using OpenFace and OpenCV.
+  - Automatically deployed to Digital Ocean on push leveraging Docker Compose and
+    Github Actions
+  - Implemented an RTMP proxy server with integrated YouTube streaming (or URI for
+    manual forwarding)
+  date: Python (OpenCV, RTMP), FFmpeg, Next.js, Docker
+  url: github
+  href: https://github.com/MiniHacks/anonygoose
+  tags: [cs]
+
+- location: CMIMC AI (CMU)
+  title: 1st Place
+  info:
+  - Trained highest-scoring agents in all three events.
+  - Parsed and visualized match replays in Python to identify optimization opportunities.
+  - Designed pathfinding, distribution approximation, and fitness optimization algorithms.
+  - Survived a week of high-intensity competition with constant placements matches.
+  date: Python, JavaScript
+  url: website
+  href: https://cmimconline.org/
+  tags: [cs]
 awards:
-  - name: US Congressional App Challenge Winner (Bobcat Notify)
-    tags: [ cs ]
-  - name: AMC 10/12 Honor Roll (2018, 2019, 2020, 2021)
-    tags: [ math ]
-  - name: Science Bowl State Champion (2021)
-    tags: [ misc ]
-  - name: SDSU Programming Design Contest Winner (2020)
-    tags: [ high school ]
-  - name: National Merit Semifinalist
-    tags: [ academia ]
-  - name: US Presidential Scholar Candidate
-    tags: [ academia ]
-  - name: USACO Gold Division
-    tags: [ cs ]
-  - name: USAMTS Honorable Mention (2017)
-    tags: [ math ]
-  - name: Science Olympiad State Champion (2021)
-    tags: [ misc ]
+- name: 2021 World Finalist @ 1871 Tech Challenge, Quantifying Gerrymandering Presentation @ 2021 MAA North Central Conference
+  tags: [cs]
 
 languages:
-  - name: JavaScript
-    tags: [ cs ]
   - name: Typescript
     tags: [ cs ]
   - name: Python
     tags: [ cs ]
   - name: C++
     tags: [ cs ]
-  - name: React, React Native
-    tags: [ cs ]
-  - name: Java
-    tags: [ cs ]
-  - name: Redux
-    tags: [ cs ]
-  - name: PHP
-    tags: [ cs ]
-  - name: NodeJS
+  - name: React
     tags: [ cs ]
   - name: LaTeX
     tags: [ math ]
-  - name: HTML/CSS
+  - name: OCaml
     tags: [ cs ]
-
-
-interests:
-  - name: Director of nonprofit debate camp (Dakota Debate Institute)
-    tags: [ misc ]
-  - name: Political Theory
-    tags: [ misc ]
-  - name: Hiking
-    tags: [ misc ]
-  - name: Kayaking
-    tags: [ misc ]
+  - name: Elixir
+    tags: [ cs ]
+  - name: Rust
+    tags: [ cs ]
+  - name: Torch, Stable Baselines
+    tags: [ cs ]
 
 technologies:
   - name: MongoDB, MySQL, Firebase/Firestore
     tags: [ cs ]
-  - name: Figma
+  - name: Google Cloud Platform, AWS
     tags: [ cs ]
-  - name: Google Cloud Platform
+  - name: ROS
+    tags: [cs]
+  - name: Docker, Ansible, Prometheus, Linux
     tags: [ cs ]
-  - name: Kubernetes
-    tags: [ cs ]
-  - name: Docker
-    tags: [ cs ]
-  - name: Git/Github
+  - name: Git
     tags: [ cs ]
   - name: Vim
     tags: [ cs ]
-

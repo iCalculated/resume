@@ -17,10 +17,10 @@ const TextLink = (props) => (
 
 // if type is array, first one is default
 const data = {
-  email: ["sam@yok.dev", "nepal017@umn.edu"],
-  phone: ["(###) ###-####", "(605) 592-6144"],
-  github: ["/samyok", "github.com/samyok"],
-  linkedin: ["/in/samyok", "linkedin.com/in/samyok"],
+  email: ["hydri001@umn.edu", "sasha.hydrie@gmail.com"],
+  phone: ["(612) 232-1484"],
+  github: ["/iCalculated", "github.com/iCalculated"],
+  linkedin: ["/in/shydrie", "linkedin.com/in/shydrie"],
   url: ["yok.dev", "www.yok.dev", "//yok.dev"],
 };
 
@@ -66,7 +66,7 @@ export const ResumeTop = ({ isEditing }) => {
   return (
     <Box pt={6} px={2} textAlign={"center"}>
       <Heading size={"xl"} mb={1}>
-        Samyok Nepal
+        Sasha Hydrie
       </Heading>
       <Flex justifyContent={"center"}>
         <TextLink href={`mailto:${getValue("email")}`} onEdit={cycleData("email")} icon={faPaperPlane}>
@@ -75,15 +75,10 @@ export const ResumeTop = ({ isEditing }) => {
         <TextLink href={`tel:${getValue("phone")}`} onEdit={cycleData("phone")} icon={faPhone}>
           {getValue("phone")}
         </TextLink>
-      </Flex>
-      <Flex justifyContent={"center"} mt={0.5}>
-        <TextLink href={"https://yok.dev"} onEdit={cycleData("url")} icon={faGlobe}>
-          {getValue("url")}
-        </TextLink>
-        <TextLink href={"https://github.com/samyok"} onEdit={cycleData("github")} icon={faGithub}>
+        <TextLink href={"https://github.com/iCalculated"} onEdit={cycleData("github")} icon={faGithub}>
           {getValue("github")}
         </TextLink>
-        <TextLink href={"https://linkedin.com/in/samyok"} onEdit={cycleData("linkedin")} icon={faLinkedin}>
+        <TextLink href={"https://linkedin.com/in/shydrie"} onEdit={cycleData("linkedin")} icon={faLinkedin}>
           {getValue("linkedin")}
         </TextLink>
       </Flex>

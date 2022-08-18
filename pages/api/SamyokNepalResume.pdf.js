@@ -10,7 +10,7 @@ module.exports = async (req, res) => {
     },
   });
   const page = await context.newPage();
-  await page.goto("https://yok.dev/resume?print");
+  await page.goto("localhost:3000/resume?print");
   await sleep(1000);
   const pdf = await page.pdf();
   res.setHeader("Cache-Control", "s-maxage=31536000, stale-while-revalidate");

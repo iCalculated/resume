@@ -17,7 +17,7 @@ import { useEffect } from "react";
 
 const DateString = new Date().toISOString().split("T")[0];
 const RESUME_PDF_LINK =
-  "https://cdn.yok.dev/api/SamyokNepalResume.pdf?sha=" +
+  "localhost:3000/api/SamyokNepalResume.pdf?sha=" +
   (process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA ?? DateString);
 
 function getTagsFromData(data) {

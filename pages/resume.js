@@ -33,10 +33,10 @@ export default function Resume({ resumeData }) {
       .join(", ");
 
   const MiscSection = [
-    { name: "Awards", items: itemsToText(resumeData.awards) },
+    { name: "Achievements", items: itemsToText(resumeData.awards) },
     { name: "Interests", items: itemsToText(resumeData.interests) },
-    { name: "Languages/Libraries", items: itemsToText(resumeData.languages) },
-    { name: "Technologies", items: itemsToText(resumeData.technologies) },
+    { name: "Languages", items: itemsToText(resumeData.languages) },
+    { name: "Tools", items: itemsToText(resumeData.technologies) },
   ].filter((s) => s.items?.length > 0);
 
   const MiscTitle = joinStrings(MiscSection.map((s) => s.name));
@@ -44,28 +44,19 @@ export default function Resume({ resumeData }) {
   return (
     <chakra.div bg={"#F0F0F0"} minHeight={"100vh"}>
       <Head>
-        <title>Samyok Nepal</title>
+        <title>Sasha Hydrie</title>
         <meta
           name="description"
           content="Hey! I'm Samyok Nepal, a coder in the midwest. Here's my resumé :)"
         />
         <meta property="og:url" content="https://yok.dev/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Samyok Nepal: My resumé" />
+        <meta property="og:title" content="Sasha Hydrie: My resumé" />
         <meta
           property="og:description"
-          content="Hey! I'm Samyok Nepal, a coder from the midwest. Here's my resumé :)"
+          content="Hey! I'm Sasha Hydrie, an incompetent undergraduate. Here's my resumé :)"
         />
         <meta property="og:image" content="https://bcdn.samyok.us/api/ogimage?url=/resume&wait=0" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="yok.dev" />
-        <meta property="twitter:url" content="https://yok.dev/" />
-        <meta name="twitter:title" content="Samyok Nepal's resumé" />
-        <meta
-          name="twitter:description"
-          content="Hey! I'm Samyok Nepal, a coder from the midwest. Here's my resumé :)"
-        />
-        <meta name="twitter:image" content="https://bcdn.samyok.us/api/ogimage?url=/resume&wait=0" />
       </Head>
 
       <main>
