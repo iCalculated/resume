@@ -17,13 +17,12 @@ work:
   info:
   - Aggregated stats from 1000 servers with 15 second cadence, including process data
     for production event retrospectives.
-  - Synchronized 750 network devices geographyically distributed network device clocks
+  - Synchronized 750 network devices geographically distributed network device clocks
     to within 3 nanoseconds.
   - Optimized energy consumption in dense computer cluster to be within 0.3% of threshold.
   - Validated state of production hosts with Ansible jobs to ensure repeatable deployment
     of 8000 processes.
   - Facilitated network management with internal Django tooling.
-  - Won a probabilistic betting competition against other interns.
 
 - location: CHOICE Lab (CV, RL, Robotics)
   place: Minneapolis, MN
@@ -47,18 +46,6 @@ work:
     & Girls Club).
   - Wrote dynamic path generation and following for autonomous routines in Java.
   - Designed a hardware abstraction framework to remove build-testing bottleneck.
-
-- location: Slingshot (CMU Startup)
-  place: CMU
-  description: High School Talent Search
-  title: 2021 Fellow
-  href: https://slingshotahead.com/
-  date: 'Feb 2021 - Sep 2021'
-  info:
-  - Moderated a Discord community of nearly 2500 people on a team of 8 across technical
-    and social channels.
-  - Designed, managed, and judged a weekly OSS challenge, topics include machine learning
-    and augmented reality.
 
 - location: Slide (Stanford Startup)
   place: Stanford
@@ -116,18 +103,18 @@ projects:
   info:
   - Blurred faces of bystanders from real-time news streams using OpenFace and OpenCV.
   - Automatically deployed to Digital Ocean on push leveraging Docker Compose and
-    Github Actions
+    Github Actions.
   - Implemented an RTMP proxy server with integrated YouTube streaming (or URI for
-    manual forwarding)
+    manual forwarding).
   date: Python (OpenCV, RTMP), FFmpeg, Next.js, Docker
   url: github
   href: https://github.com/MiniHacks/anonygoose
   tags: [cs]
 
-- location: CMIMC AI (CMU)
+- location: CMIMC AI 2021 (CMU)
   title: 1st Place
   info:
-  - Trained highest-scoring agents in all three events.
+  - Trained highest-scoring agents in all three events out of 120 teams.
   - Parsed and visualized match replays in Python to identify optimization opportunities.
   - Designed pathfinding, distribution approximation, and fitness optimization algorithms.
   - Survived a week of high-intensity competition with constant placements matches.
@@ -136,7 +123,7 @@ projects:
   href: https://cmimconline.org/
   tags: [cs]
 awards:
-- name: 2021 World Finalist @ 1871 Tech Challenge, Quantifying Gerrymandering Presentation @ 2021 MAA North Central Conference
+- name: World Finalist @ 1871 Tech Challenge 2021, Speaker @ 2021 MAA North Central Conference
   tags: [cs]
 
 languages:

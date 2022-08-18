@@ -110,7 +110,7 @@ export default function Resume({ resumeData }) {
             <ResumeHeading as={"h2"}>{MiscTitle}</ResumeHeading>
             {MiscSection.map((s) => (
               <Text fontSize={12} pt={0.5} fontWeight={300} key={s.items}>
-                <Text as={"span"} fontWeight={400}>
+                <Text as={"span"} fontWeight={500}>
                   {s.name}:
                 </Text>{" "}
                 {s.items}
