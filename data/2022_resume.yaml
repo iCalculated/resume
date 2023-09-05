@@ -4,19 +4,10 @@ defaultTags:
 
 education:
 - location: University of Minnesota, Honors
-  url: B.S. in Compsci and Math, 3.96 GPA
-  date: 'Sep 2021 - May 2025 [Expected]'
+  url: B.S. in Compsci and Math, 3.94 GPA
+  date: 'Sep 2021 - May 2024 [Expected]'
 
 work:
-- location: Jane Street
-  place: New York, NY
-  title: Software Engineering Intern
-  url: 'janestreet.com'
-  href: https://www.janestreet.com/
-  date: 'Jun 2023 - Aug 2023'
-  info:
-
-
 - location: Optiver
   place: Chicago, IL
   title: Software Engineering Intern
