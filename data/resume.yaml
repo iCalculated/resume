@@ -15,7 +15,21 @@ work:
   href: https://www.janestreet.com/
   date: 'Jun 2023 - Aug 2023'
   info:
-
+  - Created macros for low-latency tracing in async systems, revising the scheduler to support introspection.
+  - Implemented a general purpose library for fitting regularized manifolds with techniques from a paper.
+  - Rearchitected distributed pipeline for implied volatilites to fit all options for an underlying simultaneously.
+  
+- location: CAMB.AI
+  place: Remote
+  title: Machine Learning Engineer
+  url: 'camb.ai'
+  href: https://camb.ai/
+  date: 'Jan 2023 - May 2023'
+  info: 
+  - Developed translation pipeline with colloquial phrasing, optimized for longform content and low-resource languages.
+  - Designed novel convex programming formulation of segment sync problem for aligning translated voiceovers.
+  - Containerized ML models via Kubernetes and Cogs for robustness and on-demand scaling.
+  - Experimented with foundation models across various media and inference optimizations such as batching. 
 
 - location: Optiver
   place: Chicago, IL
@@ -28,49 +42,32 @@ work:
     for production event retrospectives.
   - Synchronized 750 network devices geographically distributed network device clocks
     to within 3 nanoseconds.
-  - Optimized energy consumption in dense computer cluster to be within 0.3% of threshold.
+  - Optimized energy consumption in dense computer cluster to be reliably within 0.3% of threshold.
   - Validated state of production hosts with Ansible jobs to ensure repeatable deployment
     of 8000 processes.
-  - Facilitated network management with internal Django tooling.
 
 - location: CHOICE Lab (CV, RL, Robotics)
   place: Minneapolis, MN
   title: Undergraduate Researcher
   url: choice.umn.edu
   href: https://choice.umn.edu/
-  date: 'Oct 2022 - Present'
+  date: 'Oct 2021 - May 2022'
   info:
-  - Gained practical experience with SOTA reinforcment learning algorithms.
-  - Presented at UMN undergraduate symposium about keypoint representation of state
+  - Gained practical experience with SOTA reinforcement learning algorithms.
+  - Presented at UMN undergraduate symposium about keypoint distillation for efficient state representation
     space.
 
 - location: FIRST Robotics Competition — Team 4536
   place: Saint Paul, MN
   title: Team Captain
+  url: minutebots.org
   href: http://www.minutebots.org/
   date: 'Sep 2017 - May 2021'
   info:
-  - Founded and mentored an FTC team to onboard rookies.
   - Led outreach events bringing STEM and robotics to underserved communities (Boys
     & Girls Club).
   - Wrote dynamic path generation and following for autonomous routines in Java.
   - Designed a hardware abstraction framework to remove build-testing bottleneck.
-
-- location: Slide (Stanford Startup)
-  place: Stanford
-  description: Venue Management and Analytics
-  title: Backend Intern
-  url: 'slide.us'
-  href: 'https://www.slide.us/'
-  date: 'Jun 2021 - Aug 2021'
-  info:
-  - Architected API routes for pivot to consumer social features, used by hundreds
-    of users.
-  - Automated myself out of a rote venue data scraping task and enhanced data accuracy
-    with Node.
-  - Assessed business growth and improved pitches via a MongoDB Charts KPI dashboard.
-  - Outlined core processes of software under coordination of IP counsel for a patent
-    application.
 
 basics:
   name: Sasha Hydrie
@@ -94,17 +91,26 @@ basics:
     url: https://lichess.org/@/iCalculate
 
 projects:
-- location: Watercooler Report
-  title: 2nd @ Hack Violet 2022
+- location: iCursor
+  title: Hack the North 2023
   info:
-  - 'Tested variety of ML techniques: logistic regression, gradient-boosted trees,
-    biLSTMs, embeddings, attention.'
-  - Integrated with Slack and G Suite to detect benevolent (normative) and hostile
-    sexism.
-  - Deployed a low-latency flask microservice to Google Compute Engine.
-  date: Python (Keras, Flask), GCP, Docker, JavaScript
+  - Created an extension to allow mouse control via gaze prediction without specialized hardware—an open research problem.
+  - Designed a real-time pipeline that predicted pose, applied a CNN for dynamics then refined predictions via saliency mapping.
+  - Planned to deploy everything to edge via WASM. That went poorly (but was somewhat enlightening)!
+  date: Python (PyTorch, MediaPipe), WASM, Next.js
+  url: devpost
+  href: https://devpost.com/software/icursor
+  tags: [cs]
+
+- location: HearShot
+  title: 2nd @ LAHacks 2023
+  info:
+  - Automatically extracted info from police radio to preemptively warn users about dangerous situations.
+  - Implemented robust live transcription for low-quality audio with voice activity detection and WhisperJAX for inference.
+  - Built and fine-tuned our own radio receiver with an RTL-SDR to listen to local police radio.
+  date: Python (Whisper, Silero, JAX), LLMs, Nix, SDR
   url: github
-  href: https://github.com/MiniHacks/Hack-Violet
+  href: https://devpost.com/software/hearshot
   tags: [cs]
 
 - location: Anony.news
@@ -115,56 +121,41 @@ projects:
     Github Actions.
   - Implemented an RTMP proxy server with integrated YouTube streaming (or URI for
     manual forwarding).
-  date: Python (OpenCV, RTMP), FFmpeg, Next.js, Docker
+  date: Python (OpenCV, RTMP), FFmpeg, Docker, Next.js
   url: github
   href: https://github.com/MiniHacks/anonygoose
   tags: [cs]
 
-- location: CMIMC AI 2021 (CMU)
-  title: 1st Place
-  info:
-  - Trained highest-scoring agents in all three events out of 120 teams.
-  - Parsed and visualized match replays in Python to identify optimization opportunities.
-  - Designed pathfinding, distribution approximation, and fitness optimization algorithms.
-  - Survived a week of high-intensity competition with constant placements matches.
-  date: Python, JavaScript
-  url: website
-  href: https://cmimconline.org/
-  tags: [cs]
 awards:
-- name: World Finalist @ 1871 Tech Challenge 2021, Speaker @ 2021 MAA North Central Conference
+- name: Top 10 @ 1871 Tech Challenge 2021, Speaker @ 2021 MAA NCS, 1st @ CMIMC AI 2021, Top 3 @ 8 Hackathons
   tags: [cs]
 
 languages:
+  - name: Python (Torch, Stable Baselines, Tensorflow, Seaborn)
+    tags: [ cs ]
   - name: Typescript
     tags: [ cs ]
-  - name: Python
-    tags: [ cs ]
-  - name: C++
+  - name: C, C++
     tags: [ cs ]
   - name: React
     tags: [ cs ]
-  - name: LaTeX
-    tags: [ math ]
   - name: OCaml
     tags: [ cs ]
   - name: Elixir
     tags: [ cs ]
   - name: Rust
     tags: [ cs ]
-  - name: Torch, Stable Baselines
-    tags: [ cs ]
 
 technologies:
-  - name: MongoDB, MySQL, Firebase/Firestore
+  - name: LaTeX
     tags: [ cs ]
-  - name: Google Cloud Platform, AWS
+  - name: MongoDB, Postgres, Firebase/Firestore
+    tags: [ cs ]
+  - name: GCP, AWS
     tags: [ cs ]
   - name: ROS
     tags: [cs]
-  - name: Docker, Ansible, Prometheus, Linux
+  - name: Docker, Kubernetes, Ansible, Prometheus
     tags: [ cs ]
-  - name: Git
-    tags: [ cs ]
-  - name: Vim
+  - name: Vim, Spacemacs
     tags: [ cs ]

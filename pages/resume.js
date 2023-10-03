@@ -39,7 +39,7 @@ export default function Resume({ resumeData }) {
     { name: "Tools", items: itemsToText(resumeData.technologies) },
   ].filter((s) => s.items?.length > 0);
 
-  const MiscTitle = joinStrings(MiscSection.map((s) => s.name));
+  const MiscTitle = "Skills";
 
   return (
     <chakra.div bg={"#F0F0F0"} minHeight={"100vh"}>
