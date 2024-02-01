@@ -17,10 +17,10 @@ const TextLink = (props) => (
 
 // if type is array, first one is default
 const data = {
-  email: ["hydri001@umn.edu", "sasha.hydrie@gmail.com"],
-  phone: ["(612) 232-1484"],
-  github: ["/iCalculated", "github.com/iCalculated"],
-  linkedin: ["/in/shydrie", "linkedin.com/in/shydrie"],
+  email: ["matthew.allen2409@gmail.com"],
+  phone: ["(224) 358-6621"],
+  github: ["/matthew-allen2409", "github.com/matthew-allen2409"],
+  linkedin: ["/in/matthew-allen-bb3408223", "linkedin.com/in/matthew-allen-bb3408223"],
   url: ["yok.dev", "www.yok.dev", "//yok.dev"],
 };
 
@@ -66,7 +66,7 @@ export const ResumeTop = ({ isEditing }) => {
   return (
     <Box pt={6} px={2} textAlign={"center"}>
       <Heading size={"xl"} mb={1}>
-        Sasha Hydrie
+        Matthew Allen
       </Heading>
       <Flex justifyContent={"center"}>
         <TextLink href={`mailto:${getValue("email")}`} onEdit={cycleData("email")} icon={faPaperPlane}>

@@ -3,92 +3,53 @@ defaultTags:
   - cs
 
 education:
-- location: University of Minnesota, Honors
-  url: B.S. in Compsci and Math, 3.96 GPA
-  date: 'Sep 2021 - May 2025 [Expected]'
+- location: University of Minnesota
+  url: B.S. in Computer Science, 3.6 GPA
+  date: 'Sep 2019 - Aug 2023'
 
 work:
-- location: Jane Street
-  place: New York, NY
-  title: Software Engineering Intern
-  url: 'janestreet.com'
-  href: https://www.janestreet.com/
-  date: 'Jun 2023 - Aug 2023'
-  info:
-  - Created macros for low-latency tracing in async systems, revising the scheduler to support introspection.
-  - Implemented a general purpose library for fitting regularized manifolds with techniques from a paper.
-  - Rearchitected distributed pipeline for implied volatilites to fit all options for an underlying simultaneously.
-  
-- location: CAMB.AI
-  place: Remote
-  title: Machine Learning Engineer
-  url: 'camb.ai'
-  href: https://camb.ai/
-  date: 'Jan 2023 - May 2023'
-  info: 
-  - Developed translation pipeline with colloquial phrasing, optimized for longform content and low-resource languages.
-  - Designed novel convex programming formulation of segment sync problem for aligning translated voiceovers.
-  - Containerized ML models via Kubernetes and Cogs for robustness and on-demand scaling.
-  - Experimented with foundation models across various media and inference optimizations such as batching. 
-
-- location: Optiver
+- location: iManage
   place: Chicago, IL
-  title: Software Engineering Intern
-  url: 'optiver.com'
-  href: https://optiver.com/
-  date: 'Jun 2022 - Aug 2022'
+  title: Software Engineer
+  url: 'imanage.com'
+  href: https://imanage.com/
+  date: 'Jun 2022 - Present'
   info:
-  - Aggregated stats from 1000 servers with 15 second cadence, including process data
-    for production event retrospectives.
-  - Synchronized 750 network devices geographically distributed network device clocks
-    to within 3 nanoseconds.
-  - Optimized energy consumption in dense computer cluster to be reliably within 0.3% of threshold.
-  - Validated state of production hosts with Ansible jobs to ensure repeatable deployment
-    of 8000 processes.
+  - Developed software in a distributed microservices architecture.
+  - Utilized JDB for debugging local Java applications
+  - Utilized many tools for debugging distributed our distributed software stack
+  - Worked closely with product owners to identify requirements and prioritize tasks.
+  - Developed robust unit and end to end tests to ensure software stability
+  - Collaborated effectively within multinational, cross-functional teams spanning diverse time zones.
+  - Exhibited excellent communication skills while interacting with customers and coworkers in a professional
 
-- location: CHOICE Lab (CV, RL, Robotics)
-  place: Minneapolis, MN
-  title: Undergraduate Researcher
-  url: choice.umn.edu
-  href: https://choice.umn.edu/
-  date: 'Oct 2021 - May 2022'
+- location: Starbucks
+  place: Mundelein, IL
+  title: Barista
+  url: 'starbucks.com'
+  href: https://starbucks.com/
+  date: 'Sep 2018 - Dec 2021'
   info:
-  - Gained practical experience with SOTA reinforcement learning algorithms.
-  - Presented at UMN undergraduate symposium about keypoint distillation for efficient state representation
-    space.
-
-- location: FIRST Robotics Competition — Team 4536
-  place: Saint Paul, MN
-  title: Team Captain
-  url: minutebots.org
-  href: http://www.minutebots.org/
-  date: 'Sep 2017 - May 2021'
-  info:
-  - Led outreach events bringing STEM and robotics to underserved communities (Boys
-    & Girls Club).
-  - Wrote dynamic path generation and following for autonomous routines in Java.
-  - Designed a hardware abstraction framework to remove build-testing bottleneck.
+  - Exhibited excellent communication skills while interacting with customers and coworkers in a professional manner.
+  - Demonstrated ability to work collaboratively with customers and colleagues to create a positive customer experience.
 
 basics:
-  name: Sasha Hydrie
+  name: Matthew Allen
   label: Software Engineer
   image: ''
-  email: sashahydrie@gmail.com
-  phone: "(612) 232-1484"
-  url: https://github.com/iCalculated
+  email: matthew.allen2409@gmail.com
+  phone: "(224) 358-6221"
+  url: https://github.com/matthew-allen2409
   location:
-    address: 1046 Burgess St
-    postalCode: MN 55103
+    address: 1093 16th Ave SE
+    postalCode: MN 55414 
     city: Saint Paul
     countryCode: US
-    region: California
+    region: Chicago
   profiles:
   - network: GitHub
-    username: iCalculated
-    url: https://github.com/iCalculated
-  - network: Lichess
-    username: iCalculate
-    url: https://lichess.org/@/iCalculate
+    username: matthew-allen2409
+    url: https://github.com/matthew-allen2409
 
 projects:
 - location: iCursor
@@ -131,31 +92,27 @@ awards:
   tags: [cs]
 
 languages:
-  - name: Python (Torch, Stable Baselines, Tensorflow, Seaborn)
-    tags: [ cs ]
-  - name: Typescript
+  - name: Rust
     tags: [ cs ]
   - name: C, C++
     tags: [ cs ]
-  - name: React
+  - name: Java
     tags: [ cs ]
-  - name: OCaml
+  - name: JavaScript
     tags: [ cs ]
-  - name: Elixir
-    tags: [ cs ]
-  - name: Rust
+  - name: Python
     tags: [ cs ]
 
 technologies:
-  - name: LaTeX
+  - name: Linux
     tags: [ cs ]
-  - name: MongoDB, Postgres, Firebase/Firestore
+  - name: Computer Networking, Operating Systems, Distributed Computing
     tags: [ cs ]
-  - name: GCP, AWS
-    tags: [ cs ]
-  - name: ROS
+  - name: Embedded Hardware Development
     tags: [cs]
-  - name: Docker, Kubernetes, Ansible, Prometheus
+  - name: Grafana, Kibanna, Postman, Jaeger
     tags: [ cs ]
-  - name: Vim, Spacemacs
+  - name: Vim
+    tags: [ cs ]
+  - name: Ballroom Dance (idk)
     tags: [ cs ]

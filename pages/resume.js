@@ -44,17 +44,17 @@ export default function Resume({ resumeData }) {
   return (
     <chakra.div bg={"#F0F0F0"} minHeight={"100vh"}>
       <Head>
-        <title>Sasha Hydrie</title>
+        <title>Matthew Allen</title>
         <meta
           name="description"
-          content="Hey! I'm Samyok Nepal, a coder in the midwest. Here's my resumé :)"
+          content="Hey! I'm Matthew Allen, a coder in the midwest. Here's my resumé :)"
         />
         <meta property="og:url" content="https://yok.dev/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Sasha Hydrie: My resumé" />
+        <meta property="og:title" content="Matthew Allen: My resumé" />
         <meta
           property="og:description"
-          content="Hey! I'm Sasha Hydrie, an incompetent undergraduate. Here's my resumé :)"
+          content="Hey! I'm Matthew Allen, an incompetent undergraduate. Here's my resumé :)"
         />
         <meta property="og:image" content="https://bcdn.samyok.us/api/ogimage?url=/resume&wait=0" />
       </Head>
