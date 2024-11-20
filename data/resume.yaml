@@ -4,10 +4,21 @@ defaultTags:
 
 education:
 - location: University of Minnesota, Honors
-  url: B.S. in Compsci and Math, 3.96 GPA
-  date: 'Sep 2021 - May 2025 [Expected]'
+  url: B.S. in Computer Science and Math, 3.96 GPA
+  date: 'Sep 2021 - May 2024'
 
 work:
+- location: Martian
+  place: San Francisco, CA
+  title: Research Lead
+  url: 'withmartian.com'
+  href: https://www.withmartian.com/
+  date: 'Jun 2024 - Current'
+  info:
+  - Developed transformer-based metamodel to extract capabilities from model weights, rejecting approach due to scaling analysis.
+  - Reduced manual labeling effort via preference elicitation pipeline combining LLM-as-judge and automatic prompt optimization.
+  - Led mech interp grant coordinating 5 collaborators across Apart, FAR & Eleuther, investigating backdoor mitigation transferability.
+
 - location: Jane Street
   place: New York, NY
   title: Software Engineering Intern
@@ -27,7 +38,7 @@ work:
   date: 'Jan 2023 - May 2023'
   info: 
   - Developed translation pipeline with colloquial phrasing, optimized for longform content and low-resource languages.
-  - Designed novel convex programming formulation of segment sync problem for aligning translated voiceovers.
+  - Architected novel convex programming formulation of segment sync problem for aligning translated voiceovers.
   - Containerized ML models via Kubernetes and Cogs for robustness and on-demand scaling.
   - Experimented with foundation models across various media and inference optimizations such as batching. 
 
@@ -53,21 +64,9 @@ work:
   href: https://choice.umn.edu/
   date: 'Oct 2021 - May 2022'
   info:
-  - Gained practical experience with SOTA reinforcement learning algorithms.
-  - Presented at UMN undergraduate symposium about keypoint distillation for efficient state representation
+  - Experimented with task-agnostic representations for accelerated reinforcement learning training in robotics contexts.
+  - Presented poster at UMN undergraduate symposium about keypoint distillation for efficient state representation
     space.
-
-- location: FIRST Robotics Competition — Team 4536
-  place: Saint Paul, MN
-  title: Team Captain
-  url: minutebots.org
-  href: http://www.minutebots.org/
-  date: 'Sep 2017 - May 2021'
-  info:
-  - Led outreach events bringing STEM and robotics to underserved communities (Boys
-    & Girls Club).
-  - Wrote dynamic path generation and following for autonomous routines in Java.
-  - Designed a hardware abstraction framework to remove build-testing bottleneck.
 
 basics:
   name: Sasha Hydrie
@@ -105,7 +104,7 @@ projects:
 - location: HearShot
   title: 2nd @ LAHacks 2023
   info:
-  - Automatically extracted info from police radio to preemptively warn users about dangerous situations.
+  - Automatically extracted information from police radio to preemptively warn users about dangerous situations.
   - Implemented robust live transcription for low-quality audio with voice activity detection and WhisperJAX for inference.
   - Built and fine-tuned our own radio receiver with an RTL-SDR to listen to local police radio.
   date: Python (Whisper, Silero, JAX), LLMs, Nix, SDR
